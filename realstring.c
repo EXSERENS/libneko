@@ -8,7 +8,7 @@ struct string {
 
 struct string *string_init() {
     struct string *realstr;
-    realstr->len = calloc(1, sizeof(char));
+    realstr->str = calloc(1, sizeof(char));
     realstr->len = 1;
     return realstr;
 }
