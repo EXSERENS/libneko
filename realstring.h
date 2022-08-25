@@ -1,6 +1,9 @@
 #include <string.h>
 
-struct string;
+struct string {
+    char *str;
+    unsigned int len;
+};
 
 struct string *string_init();
 void string_delete(struct string *realstr);

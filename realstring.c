@@ -1,10 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-
-struct string {
-    char *str;
-    unsigned int len;
-};
+#include <realstring.h>
 
 struct string *string_init() {
     struct string *realstr;
